@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --bgcolor: white;
+    --primary-color: rgb(23, 23, 240);
+    --text-color:rgb(54, 54, 253);
+    --main-text-color: rgb(204, 184, 184);
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(30, 30, 233);
+}
+
+h1,
+h2,
+h3,
+h4,
+h6{
+    color: rgb(41, 41, 223);
+}
+.navbar{
+    margin-top: 2rem ;
+    padding: 0.5rem;
+    background-color: rgb(6, 6, 78);
+}
+
+.navbar-bg{
+    background-color: var(--bgcolor);
+    padding: 1rem;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar li{
+    padding: 0 1rem;
+}
+
+.navbar li a{
+    color: var(--white)!important;
+}
+
+.navbar li a:hover{
+    color: yellow !important;
+}
+.nav-item{
+    color: white;
+}
+
+/*========Header===========*/
+.table-design{
+    margin-top: 3rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+/*========Date picker===========*/
+
+.datepicker-style{
+    float: right;
+    margin-top: 2rem;
+    padding: 0.2rem;
+    border: hidden;
+    display: flex;
+    text-align: center;
+}
+.app.js{
+    align-self: center;
+}
