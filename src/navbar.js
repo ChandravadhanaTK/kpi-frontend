@@ -6,25 +6,25 @@ const Navbar =() => {
         return(
     <>
     <section className="navbar-bg">
-    <nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#" color="white">AMERICAN EXPRESS</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShow(!show)}>
-      <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg ">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#" color="white">AMERICAN EXPRESS</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setShow(!show)}>
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class={`collapse navbar-collapse ${show ? "show":""}`}>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./monitor_submission.js">Monitor Submission</a>
+    <div className={`collapse navbar-collapse ${show ? "show":""}`}>
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="./monitor_submission.js">Monitor Submission</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Payment Activity</a>
+        <li className="nav-item">
+          <a className="nav-link active" href="#">Payment Activity</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Reporting</a>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Reporting</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">GMAS KPIs</a>
+        <li className="nav-item">
+          <a className="nav-link active" href="#">GMAS KPIs</a>
         </li>
       </ul>
       
